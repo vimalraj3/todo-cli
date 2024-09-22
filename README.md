@@ -37,7 +37,7 @@
 
     ```bash
     git clone git@github.com:vimalraj3/todo-cli.git
-    cd cli-todo-app
+    cd todo-cli
     ```
 
 2. **Build the Application**
