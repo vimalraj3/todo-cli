@@ -12,7 +12,6 @@
   - [List All Todos](#list-all-todos)
   - [Update a Todo](#update-a-todo)
   - [Delete a Todo](#delete-a-todo)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -36,32 +35,30 @@
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yourusername/cli-todo-app.git
-   cd cli-todo-app
-   ```
-
-````
+    ```bash
+    git clone https://github.com/yourusername/cli-todo-app.git
+    cd cli-todo-app
+    ```
 
 2. **Build the Application**
 
-   ```bash
-   go build -o todo
-   ```
+    ```bash
+    go build -o todo
+    ```
 
 3. **Move to Your PATH**
 
-   ```bash
-   mv todo /usr/local/bin/
-   ```
+    ```bash
+    mv todo /usr/local/bin/
+    ```
 
-   _Alternatively, you can use Go's install command:_
+    _Alternatively, you can use Go's install command:_
 
-   ```bash
-   go install
-   ```
+    ```bash
+    go install
+    ```
 
-   Ensure that your `$GOPATH/bin` is added to your system's `PATH` to use the `todo` command globally.
+    Ensure that your `$GOPATH/bin` is added to your system's `PATH` to use the `todo` command globally.
 
 ## Usage
 
@@ -81,7 +78,7 @@ todo --add "Buy a coke"
 todo --add "Finish writing the report"
 ```
 
-### Toggle Done Status of a Todo
+### Toggle Done Status
 
 Mark a task as completed or revert it back to pending using its ID.
 
@@ -141,19 +138,6 @@ todo --delete <id>
 todo --delete 1
 ```
 
-## Configuration
-
-You can customize the behavior of the CLI To Do App by editing the configuration file located at `~/.todo/config.json`. Here, you can set preferences such as the default storage location, task priority levels, and more.
-
-**Example `config.json`:**
-
-```json
-{
-  "storage_path": "/path/to/todo/storage.json",
-  "default_priority": "medium"
-}
-```
-
 ## Contributing
 
 Contributions are welcome! Whether it's fixing bugs, adding new features, or improving documentation, your help is appreciated.
@@ -161,21 +145,21 @@ Contributions are welcome! Whether it's fixing bugs, adding new features, or imp
 1. **Fork the Repository**
 2. **Create a Feature Branch**
 
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
+    ```bash
+    git checkout -b feature/YourFeature
+    ```
 
 3. **Commit Your Changes**
 
-   ```bash
-   git commit -m "Add your message"
-   ```
+    ```bash
+    git commit -m "Add your message"
+    ```
 
 4. **Push to the Branch**
 
-   ```bash
-   git push origin feature/YourFeature
-   ```
+    ```bash
+    git push origin feature/YourFeature
+    ```
 
 5. **Open a Pull Request**
 
@@ -188,7 +172,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - Inspired by various CLI to-do applications.
-- Built with ❤️ using [GoLang](https://golang.org/).
-
-````
-
+- Built with ❤️ using [GoLang](https://golang.org/). 
