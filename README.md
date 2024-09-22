@@ -36,7 +36,7 @@
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/cli-todo-app.git
+    git clone git@github.com:vimalraj3/todo-cli.git
     cd cli-todo-app
     ```
 
